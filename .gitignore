@@ -1,0 +1,15 @@
+notes/
+.DS_Store
+/vendor/
+/wp/
+wp-config.php
+/content/*
+!/content/plugins/
+/content/plugins/*
+!/content/plugins/hello-world
+!/content/plugins/random-post-title
+!/content/plugins/o-redirect-to
+!/content/plugins/NewTheme
+!/content/themes/
+/content/themes/*
+!/content/themes/NewTheme

@@ -1,0 +1,31 @@
+// 1. Inclusion de nos abstracts
+// @import
+//     'abstracts/vars';
+
+// 2. Inclusion de nos vendors
+/*
+    Ici, nous n'avons pas de dossier "vendors".
+    En effet, nous utilisons NPM afin de gerer nos dépendances.
+    Du coup nous allons demande à node-sass d'importer nos vendors
+    depuis le dossier "node_modules"
+    ~ est un raccourci vers le répertoire "node_modules/"
+*/
+@import
+    '~reset-css/sass/reset',
+    '~font-awesome/scss/font-awesome';
+
+// 3. Import de la base
+@import
+    // 'base/animations',
+    'base/base';
+    // 'base/typo';
+
+// 4. Import des layout
+
+
+// 5. Import des components
+
+
+// Inclusion du shame
+@import
+    'shame';
